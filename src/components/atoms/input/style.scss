@@ -1,0 +1,25 @@
+.a-input {
+    border: none;
+    outline: none;
+    &__login {
+        padding: 8px 12px;
+        font-size: 20px;
+        flex-grow: 1;
+        &--primary {
+            background-color: transparent;
+            color: #FE871F;
+        }
+        
+    }
+    &--grow{
+        flex-grow: 1;
+        
+    }
+    &--transparent{
+        background-color: transparent;
+    }
+    &--24px{
+        font-size: 16px;
+    }
+    
+}

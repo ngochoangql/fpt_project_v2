@@ -1,0 +1,48 @@
+@media screen and (min-width:992px) {
+    .m-search {
+        &__container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        &__input {
+            width: 60%;
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            border-radius: 12px;
+            background-color: #E7E3E0;
+            gap: 12px;
+        }
+    }
+}
+
+@media screen and (max-width:992px) {
+    .m-search {
+        &__container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+
+            &--hidden {
+                display: none;
+            }
+        }
+
+        &__input {
+            width: 90%;
+            padding: 4px;
+            display: flex;
+            align-items: center;
+            border-radius: 12px;
+            background-color: #E7E3E0;
+            gap: 12px;
+        }
+        &--hidden{
+            display: mone;
+        }
+    }
+    
+}
+

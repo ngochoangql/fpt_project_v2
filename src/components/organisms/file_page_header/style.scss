@@ -1,0 +1,108 @@
+
+.o-file-manage-header{
+    &-search__container{
+        padding: 12px;
+        height: 48px;
+    }
+    &__container{
+        padding: 12px;
+        height: 48px;
+    }
+}
+@media screen and (max-width:992px) {
+    .o-file-manage-header {
+        &__container {
+            display: flex;
+            align-items: center;
+        }
+    
+        &__logo {
+            display: flex;
+            gap: 12px;
+    
+            p {
+                font-size: 28px;
+                color: #FE871F;
+                margin: 0;
+            }
+        }
+    
+        &__icon {
+
+            &--hidden{
+                display: none;
+            }
+        }
+    }
+    .o-file-manage-header-search {
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+       
+        &-input{
+            display: none;
+        }
+        &__logo {
+            display: flex;
+            gap: 12px;
+    
+            p {
+                font-size: 28px;
+                color: #FE871F;
+                margin: 0;
+            }
+        }
+    
+        &__icon {
+            
+            &--hidden{
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (min-width:992px) {
+    .o-file-manage-header {
+        &__container {
+            display: flex;
+            align-items: center;
+        }
+    
+        &__logo {
+            display: flex;
+            gap: 12px;
+    
+            p {
+                font-size: 28px;
+                color: #FE871F;
+                margin: 0;
+            }
+        }
+    }
+    .o-file-manage-header-search {
+        &__container {
+            display: flex;
+            align-items: center;
+          
+        }
+        &__menu{
+            display: none;
+        }
+        &__logo {
+            display: flex;
+            gap: 12px;
+    
+            p {
+                font-size: 28px;
+                color: #FE871F;
+                margin: 0;
+            }
+        }
+    
+        &__icon {
+            display: none;
+        }
+    }
+}

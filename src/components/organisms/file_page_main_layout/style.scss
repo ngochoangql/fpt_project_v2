@@ -1,0 +1,13 @@
+@use '../../../assets/scss/index.scss' as *;
+
+.o-file-page-main-layout{
+    &__container{
+        height: calc(100% - 24px);
+        padding: 8px 8px 16px 8px;
+        display: flex;
+        flex-direction: column;
+    }
+    &--grow{
+        @include grow();
+    }
+}

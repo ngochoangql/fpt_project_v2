@@ -1,0 +1,17 @@
+.p-file-manage{
+    &__container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+       
+    }
+    &__nav-main{
+        border-top: 1px solid rgba(254, 135, 31, 0.34);
+        width: calc(100% - 16px);
+        padding: 0 8px ;
+        flex-grow: 1;
+        display: flex;
+        gap: 8px;
+    }
+}

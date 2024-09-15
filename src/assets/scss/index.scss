@@ -1,0 +1,35 @@
+/* Customize Margin*/
+@mixin margin-value($m) {
+    margin: $m * 4px;
+}
+@mixin margin-side($direction, $m) {
+    margin-#{$direction}: $m * 4px;
+}
+
+@mixin margin() {
+    @for $i from 1 through 50 {
+        &-#{$i} {
+            @include margin-value($i);
+        }
+        &t-#{$i} { @include margin-side('top', $i); }       // margin-top
+        &r-#{$i} { @include margin-side('right', $i); }     // margin-right
+        &b-#{$i} { @include margin-side('bottom', $i); }    // margin-bottom
+        &l-#{$i} { @include margin-side('left', $i); }      // margin-left
+    }
+}
+
+
+/* Customize Flex-Grow*/
+@mixin grow-value($i) {
+    flex-grow: $i;
+}
+
+@mixin grow() {
+    @for $i from 1 through 12 {
+        &-#{$i} {
+            @include grow-value($i);
+        }
+    }
+}
+
+

@@ -1,0 +1,13 @@
+.m-type-message-request{
+    &__container{
+        display: flex;
+        gap:8px;
+    }
+    &__input{
+        flex-grow: 1;
+        display: flex;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 4px;
+    }
+}

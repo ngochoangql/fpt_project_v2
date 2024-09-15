@@ -1,0 +1,15 @@
+.p-chat-page{
+    &__container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    &__header{
+        padding: 12px;
+    }
+    &__main{
+        flex-grow: 1;
+        padding: 12px;
+    }
+}

@@ -1,0 +1,42 @@
+
+
+@media screen and (max-width:678px) {
+    .m-chat-page-header{
+        &__container{
+            display: flex;
+            gap: 8px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__logo{
+        }
+        &__title{
+            flex-grow: 1;
+            text-align: center;
+            font-size: 18px;
+            color: #FE871F;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (min-width:678px)  {
+    .m-chat-page-header{
+        &__container{
+            display: flex;
+            align-items: center;
+        }
+        &__logo{
+            
+        }
+        &__title{
+            flex-grow: 1;
+            text-align: center;
+            font-size: 28px;
+            color: #FE871F;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+}

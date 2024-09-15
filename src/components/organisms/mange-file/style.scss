@@ -1,0 +1,14 @@
+@use '../../../assets/scss/index.scss' as *;
+
+.o-manage-file {
+    &__container {
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &--grow {
+        @include grow();
+    }
+}
